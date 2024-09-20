@@ -1,0 +1,43 @@
+name: Run Python and commit
+
+on:
+  push:
+    branches: [ "gh-pages" ]
+  pull_request:
+    branches: [ "gh-pages" ]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install Python Libraries
+      run: sudo pip install ffmpeg-python
+    
+    - name: List all files
+      run: ls song_audio/*.mp3 > song_list.txt
+
+    - name: Run the build script for all files
+      run: python generate.py layout.html song_list.txt > index.html
+
+    - name: Commit generated files
+      run: 
+
+        git config --local user.email "timp@paneris.org"
+      
+        git config --global user.name "TimP Github"
+  
+        git commit -m "Github Actions $(date)" index.html 
+        
+    - name: Push generated files
+      uses: ad-m/github-push-action@v0.8.0
+      with:
+          branch: gh-pages #ignore if your branch is master
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
