@@ -2,9 +2,9 @@ name: Run Python and commit
 
 on:
   push:
-    branches: [ "gh-pages" ]
+    branches: [ "overhaul" ]
   pull_request:
-    branches: [ "gh-pages" ]
+    branches: [ "overhaul" ]
 
 permissions:
   contents: write
@@ -38,6 +38,6 @@ jobs:
     - name: Push generated files
       uses: ad-m/github-push-action@v0.8.0
       with:
-          branch: gh-pages #ignore if your branch is master
+          branch: overhaul #ignore if your branch is master
           github_token: ${{ secrets.GITHUB_TOKEN }}
           force: true
