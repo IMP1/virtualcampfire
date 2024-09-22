@@ -4,6 +4,7 @@ import urllib.parse
 import ffmpeg # ffmpeg-python
 from pathlib import Path
 from string import Template
+from math import floor
 
 
 SONG_HTML = """
