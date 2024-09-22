@@ -40,7 +40,8 @@ def populate_songs(song_list):
 
 
 def get_song_url(filename):
-    return urllib.parse.quote_plus(filename)
+    path = Path(filename)
+    return str(path.parent / urllib.parse.quote_plus(path.name))
 
 
 def get_song_name(filename):
