@@ -48,9 +48,10 @@ def get_song_name(filename):
 
 
 def get_song_playtime(filename):
-    time = ffmpeg.probe(filename)['format']['duration']
+    time = int(ffmpeg.probe(filename)['format']['duration'])
     minutes = floor(time / 60)
-    return f"{minutes}:00"
+    seconds = time % 60
+    return f"{minutes}:{seconds:02}"
 
 
 def get_song_filesize(filename):
