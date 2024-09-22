@@ -96,4 +96,4 @@ def main(html_layout_filepath, song_list_filepath):
     print(html_text)
 
 
-main(*sys.argv[1:2])
+main(sys.argv[1], sys.argv[2])
