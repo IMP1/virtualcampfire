@@ -18,7 +18,11 @@ jobs:
     - uses: actions/checkout@v3
 
     - name: Install Python Libraries
-      run: sudo pip install ffmpeg-python
+      run: 
+
+        sudo apt install ffmpeg
+
+        sudo pip install ffmpeg-python
     
     - name: List all files
       run: ls song_audio/*.mp3 > song_list.txt
