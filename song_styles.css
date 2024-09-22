@@ -75,12 +75,15 @@ aside#github {
     border: none;
     cursor: pointer;
 }
-#player-controls button[disabled] {
+#player-controls button.inactive {
     color: rgb(0, 0, 0, 0.5);
 }
-#player-controls button[disabled] svg {
+#player-controls button.inactive svg {
     stroke: rgb(0, 0, 0, 0.5);
     stroke-width: 1px;
+}
+#player-controls button svg:nth-of-type(2) {
+    display: none;
 }
 #player-controls #player-timeline {
     vertical-align: middle;
