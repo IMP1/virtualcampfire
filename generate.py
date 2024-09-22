@@ -1,7 +1,7 @@
 import sys
 import datetime
 import urllib.parse
-import ffmpeg # ffmpeg-python
+import ffmpeg
 from pathlib import Path
 from string import Template
 from math import floor
@@ -26,6 +26,7 @@ SONG_HTML = """
 
 def populate_songs(song_list):
     songs = []
+    song_html = Template(SONG_HTML)
     for song_filepath in song_list:
         if not Path(song_filepath).exists():
             # TODO: Add to a list of missing songs? I guess this shouldn't happen
@@ -34,7 +35,7 @@ def populate_songs(song_list):
         title = get_song_name(song_filepath)
         playtime = get_song_playtime(song_filepath)
         filesize = get_song_filesize(song_filepath)
-        songs.append(SONG_HTML.replace("$url", url).replace("$title", title).replace("$playtime", playtime).replace("$filesize", filesize))
+        songs.append(song_html.substitute(url=url, title=title, playtime=playtime, filesize=filesize))
     
     return "".join(songs)
 
@@ -85,14 +86,14 @@ def make_ordinal(n):
     return str(n) + suffix
 
 
-def main():
-    song_list = Path(sys.argv[2]).read_text().splitlines()
+def main(html_layout_filepath, song_list_filepath):
+    song_list = Path(song_list_filepath).read_text().splitlines()
     song_html = populate_songs(song_list)
     timestamp = get_timestamp()
-    html_text = Path(sys.argv[1]).read_text()
+    html_text = Path(html_layout_filepath).read_text()
     layout = Template(html_text)
     html_text = layout.substitute(song_list=song_html, update_timestamp=timestamp)
     print(html_text)
 
 
-main()
+main(*sys.argv[1:2])
