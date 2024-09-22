@@ -10,7 +10,7 @@
 
 <body>
 
-  <aside>
+  <aside id="songbook-cover">
     <div id="logo"></div>
     <ul>
       <li>Email <a href="mailto:tim.pizey+vc@gmail.com">Tim</a> to contribute songs or feedback</li>
@@ -26,9 +26,39 @@
     </a>
   </aside>
 
+  <!-- <div id="player-controls" class="hidden"> -->
   <div id="player-controls">
     <audio id="player" type="audio/mpeg"></audio>
-    
+
+    <span id="player-song-controls">
+      <button title="Rewind">⏪</button>
+      <button title="Pause">⏸</button>
+      <button title="Skip">⏩</button>
+    </span>
+
+    <span id="player-queue-controls">
+      <button title="Toggle Looping">➿</button>
+      <button title="Toggle Shuffle">🔀</button>
+      <button title="Show Queue">🔢</button>
+    </span>
+
+    <span id="player-timeline">
+      <span>0:10</span>
+      <progress value="10" max="90"></progress>
+      <span>1:30</span>
+    </span>
+
+    <span id="player-song-info">
+      <span>Song Title</span>
+      <span>Song Author, Date</span>
+    </span>
+
+    <span id="player-song-actions">
+      <button title="Show Lyrics">ℹ</button>
+      <button title="Show Song Info">ℹ</button>
+      <button title="Download Song (8 Mb)">ℹ</button>
+    </span>
+
   </div>
 
   <header>
