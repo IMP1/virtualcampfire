@@ -25,14 +25,14 @@ SONG_HTML = """
 
 def populate_songs(song_list):
     songs = []
-    for song_filename in song_list:
-        if not (Path("song_audio") / Path(song_filename)).exists():
+    for song_filepath in song_list:
+        if not Path(song_filepath).exists():
             # TODO: Add to a list of missing songs? I guess this shouldn't happen
             continue
-        url = get_song_url(song_filename)
-        title = get_song_name(song_filename)
-        playtime = get_song_playtime(song_filename)
-        filesize = get_song_filesize(song_filename)
+        url = get_song_url(song_filepath)
+        title = get_song_name(song_filepath)
+        playtime = get_song_playtime(song_filepath)
+        filesize = get_song_filesize(song_filepath)
         songs.append(SONG_HTML.replace("$url", url).replace("$title", title).replace("$playtime", playtime).replace("$filesize", filesize))
     
     return "".join(songs)
@@ -43,7 +43,7 @@ def get_song_url(filename):
 
 
 def get_song_name(filename):
-    return filename.replace("_", " ").replace(".mp3", "")
+    return Path(filename).stem.replace("_", " ")
 
 
 def get_song_playtime(filename):
@@ -53,7 +53,7 @@ def get_song_playtime(filename):
 
 
 def get_song_filesize(filename):
-    byte_size = (Path("song_audio") / Path(filename)).stat().st_size
+    byte_size = Path(filename).stat().st_size
     return str(round(byte_size / 1048576, 2))
 
 
