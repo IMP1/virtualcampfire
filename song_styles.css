@@ -53,6 +53,7 @@ aside#github {
     vertical-align: middle;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    border-top: 1px solid black;
 }
 #player-controls.hidden {
     display: none;
@@ -72,24 +73,58 @@ aside#github {
     height: 1.5rem;
     background: none;
     border: none;
+    cursor: pointer;
+}
+#player-controls button[disabled] {
+    color: rgb(0, 0, 0, 0.5);
+}
+#player-controls button[disabled] svg {
+    stroke: rgb(0, 0, 0, 0.5);
+    stroke-width: 1px;
 }
 #player-controls #player-timeline {
     vertical-align: middle;
-    width: 35%;
-    width: calc(30% + 6rem);
+    width: 40%;
+    width: calc(35% + 6rem);
     font-size: 0.8rem;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
 }
-#player-controls #player-timeline progress {
+#player-controls #player-timeline progress[value] {
+    vertical-align: middle;
     width: 80%;
+    background-color: #fff;
+    height: 8px;
+    line-height: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
 }
+#player-controls #player-timeline progress[value]::-webkit-progress-bar {
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+#player-controls #player-timeline progress[value]::-webkit-progress-value {
+    background-color: #004000;
+}
+#player-controls #player-timeline progress[value]::-moz-progress-bar {
+    background-color: #004000;
+}
+
 #player-controls #player-song-info {
     display: inline-block;
     line-height: 1rem;
+    max-width: 12rem;
 }
 #player-controls #player-song-info span {
     display: block;
     text-align: left;
     font-size: 0.9rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 #player-controls #player-song-info span:nth-of-type(2) {
     color: #666;
