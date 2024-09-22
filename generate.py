@@ -48,9 +48,9 @@ def get_song_name(filename):
 
 
 def get_song_playtime(filename):
-    time = int(ffmpeg.probe(filename)['format']['duration'])
+    time = float(ffmpeg.probe(filename)['format']['duration'])
     minutes = floor(time / 60)
-    seconds = time % 60
+    seconds = floor(time + 0.5) % 60
     return f"{minutes}:{seconds:02}"
 
 
