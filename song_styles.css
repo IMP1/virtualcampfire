@@ -55,7 +55,10 @@ aside#github {
     padding-bottom: 1rem;
     border-top: 1px solid black;
 }
-#player-controls.hidden {
+#player-controls > * {
+    display: inline-block;
+}
+#player-controls.hidden > * {
     display: none;
 }
 #player-controls > span {
@@ -117,7 +120,6 @@ aside#github {
 }
 
 #player-controls #player-song-info {
-    display: inline-block;
     line-height: 1rem;
     max-width: 12rem;
 }

@@ -199,8 +199,11 @@ function setup() {
     });
 
     window.currentAudioElement = document.getElementById("player");
-    if (typeof window.currentAudioElement === 'undefined') { 
-        alert('your browser does not like audio.');
+        
+    if (typeof window.currentAudioElement === 'undefined') {
+        // TODO: Give some action the user can perform? Recommend a browser?
+        document.getElementById("player-controls").innerHTML = "<span>Your brower doesn't support audio.</span>";
+        document.getElementById("player-controls").classList.remove("hidden");
     } else {
         hasAudioSupport = true;
     }
