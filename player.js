@@ -13,7 +13,7 @@ function play(url) {
     let authorName = document.getElementById("player-author");
     // TODO: Get song info to get author
     authorName.textContent = "Author, Date";
-    window.currentAudioElement.src = getSongAudioUrl(url);
+    window.currentAudioElement.src = url;
     window.currentAudioElement.addEventListener("playing", onStartPlaying);
     window.currentAudioElement.play();
     setPlaying();
@@ -79,7 +79,7 @@ function showSongInfo() {
 function downloadSong(url) {
     const link = document.createElement("a");
     link.download = getSongName(url);
-    link.href = getSongAudioUrl(url);
+    link.href = url;
     link.target = "_blank";
     document.body.appendChild(link);
     link.click();
@@ -144,23 +144,6 @@ function getSongName(url) {
     url = url.substring(0, url.lastIndexOf("."));
     url = url.replaceAll("_", " ");
     return url;
-}
-
-function getSongAudioUrl(songUrl) {
-    // TODO: Clean this up. What is it doing?
-    var plain = new RegExp("^([^\(]+)\.mp3$");
-    var m = plain.exec(decodeURI(songUrl));
-    if (m != null) { 
-        return m[1] + ".mp3";
-    } else { 
-        var withBrackets = new RegExp(/^([^\(]+?)_\(([^\)]+)\)/);
-        var wb = withBrackets.exec(decodeURI(songUrl));
-        if (wb != null) { 
-            return wb[1] + ".mp3";
-        } else { 
-            return null;
-        }
-    }
 }
 
 function toTimeString(time) {
