@@ -10,7 +10,7 @@ from math import floor
 SONG_HTML = """
       <tr class="song">
         <td class="songname">
-          <a onclick="choose('$url')" title="[$playtime]">
+          <a onclick="play('$url')" title="[$playtime]">
             <img src="playbutton.png" alt="Play $title">
             $title
           </a>
