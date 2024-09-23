@@ -10,6 +10,7 @@ function play(url) {
     if (!hasAudioSupport) { return; }
     let songName = document.getElementById("player-title");
     songName.textContent = getSongName(url);
+    songName.title = getSongName(url);
     let authorName = document.getElementById("player-author");
     // TODO: Get song info to get author
     authorName.textContent = "Author, Date";
