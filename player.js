@@ -82,7 +82,6 @@ function downloadSong(url) {
     link.href = getSongAudioUrl(url);
     link.target = "_blank";
     document.body.appendChild(link);
-    console.log(link);
     link.click();
     document.body.removeChild(link);
 }
@@ -124,7 +123,8 @@ function skipTo(time) {
 }
 
 function finishSong() {
-    console.log(queue);
+    // TODO: Check for looping
+    // TODO: Check for shuffle
     if (queue.length > 0) {
         const nextSong = queue.shift();
         play(nextSong);
@@ -180,9 +180,6 @@ function setup() {
         let x = e.pageX - bar.offsetLeft, // or e.offsetX (less support, though)
             y = e.pageY - bar.offsetTop,  // or e.offsetY
             clickedValue = x * bar.max / bar.offsetWidth;
-
-        console.log(x, y);
-        console.log(clickedValue);
         skipTo(clickedValue);
     });
 
