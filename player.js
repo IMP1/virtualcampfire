@@ -69,11 +69,11 @@ function showQueue() {
 
 }
 
-function showLyrics() {
+function showLyrics(url) {
     
 }
 
-function showSongInfo() {
+function showSongInfo(url) {
     
 }
 
