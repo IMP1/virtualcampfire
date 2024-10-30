@@ -3,6 +3,15 @@ body {
     color:white;
     font-family: sans-serif;
 }
+h1 {
+	font-size: 4rem;
+}
+#left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
 #logo {
     background:url(fscfireball.jpg) no-repeat 20px 10px;
     width:200px;
