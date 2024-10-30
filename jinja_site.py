@@ -26,6 +26,7 @@ tag.year          # year or data as string
 
 file_in = sys.argv[1]
 file_out = file_in.replace(".txt", ".html")
+page_name = file_in.replace(".txt", "").replace("_", " ")
 songs = []
 with (open(file_in, 'r') as input):
     for line in input:
@@ -58,6 +59,6 @@ environment = Environment(loader=FileSystemLoader("."))
 page_template = environment.get_template("jinja_page.template")
 
 with open(file_out, mode="w", encoding="utf-8") as output:
-    output.write(page_template.render(songs=songs, dateStamp=datetime.now()))
+    output.write(page_template.render(songs=songs, dateStamp=datetime.now(), page_name=page_name))
     print(f"... wrote {file_out}")
 
