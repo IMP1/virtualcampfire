@@ -29,9 +29,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install Jinja2 tinytag 
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: execute python script for all
+    - name: execute python script for All_Songs
       run: |
-        python jinja_site.py all.txt
+        python jinja_site.py All_Songs.txt
     - name: execute python script for selection
       run: |
         python jinja_site.py selection.txt
