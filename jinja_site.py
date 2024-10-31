@@ -50,6 +50,7 @@ with (open(file_in, 'r') as input):
         song["title"] = title
         path = 'mp3/' + file_name
         song["path"] = path
+        song["escaped_path"] = path.replace("'", "\\'")
         tags = TinyTag.get(path)
         song["duration"] = str(timedelta(seconds=round(tags.duration)))
         song["size"] = round((tags.filesize / 1048576), 2)

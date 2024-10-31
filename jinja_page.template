@@ -42,7 +42,7 @@ to learn and teach traditional songs online.
 {% for song in songs %}
 <tr class="song">
   <td valign="center">
-    <a onclick="choose('{{song.path}}')"
+    <a onclick="choose('{{song.escaped_path}}')"
        title="{{song.title}}. [{{song.duration}}]."
     >
      <svg xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ to learn and teach traditional songs online.
     </a>
   </td>
   <td class=song_text>
-    <a onclick="choose('{{song.path}}')"
+    <a onclick="choose('{{song.escaped_path}}')"
        title="{{song.title}}. [{{song.duration}}]."
     >
      {{song.title}}
