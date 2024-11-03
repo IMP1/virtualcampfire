@@ -69,7 +69,7 @@ for row in rows:
 # Check the files
 for song in songs:
     if (not song in rows):
-        print(f'{song},N,Y,,Fine,Y,"From OGVCC"')
+        print(f'{song},,N,Y,,,Y,"From validate.py"')
 
 
 #print(songs)

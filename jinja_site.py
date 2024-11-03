@@ -30,6 +30,8 @@ page_name = file_in.replace(".txt", "").replace("_", " ")
 songs = []
 with (open(file_in, 'r') as input):
     for line in input:
+        if line.startswith("#"):
+            continue
         song = {}
         file_name = line.strip()
         title_version = file_name.replace(".mp3", "")

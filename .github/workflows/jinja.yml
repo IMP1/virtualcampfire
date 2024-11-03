@@ -35,6 +35,9 @@ jobs:
     - name: execute python script for selection
       run: |
         python jinja_site.py selection.txt
+    - name: execute python script for The_Next_To_Come_In_1990
+      run: |
+        python jinja_site.py The_Next_To_Come_In_1990.txt
     - name: execute python script for Songbook_2017
       run: |
         python jinja_site.py Songbook_2017.txt
