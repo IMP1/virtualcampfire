@@ -5,7 +5,8 @@
 old=$1
 new=$2
 
-mv mp3/$old mp3/$new
+git mv mp3/$old mp3/$new
+sed -i "s/$old/$new/g" songs.csv
 sed -i "s/$old/$new/g" *.html
 sed -i "s/$old/$new/g" *.txt
 echo "Do lyrics manually"
