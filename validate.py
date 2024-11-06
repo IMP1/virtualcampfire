@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # Compare the Google sheet data with the files
 #
 # The Google sheet is at:
@@ -68,8 +69,11 @@ for row in rows:
 
 # Check the files
 for song in songs:
+    if (not songs[song]['lyric_exists']):
+        print(f"Song {song} does not have a corresponding lyric file: {songs[song]['lyric_name']}")
+
     if (not song in rows):
-        print(f'{song},,N,Y,,,Y,"From validate.py"')
+        print(f'{song},,N,Y,,,Y,"Delete me"')
 
 
 #print(songs)
