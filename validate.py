@@ -53,6 +53,7 @@ for file_name in os.listdir(directory):
             song["version"] = ""
 
         lyric_name = "lyrics/" + title + ".html"
+        lyric_name = lyric_name.replace("_.html", ".html")
         song["lyric_name"] = lyric_name
         song["lyric_exists"] = os.path.exists(lyric_name)
         title = title.replace("_", " ")
@@ -70,7 +71,7 @@ for row in rows:
 # Check the files
 for song in songs:
     if (not songs[song]['lyric_exists']):
-        print(f"Song {song} does not have a corresponding lyric file: {songs[song]['lyric_name']}")
+        print(f"Song {song} missing lyric file: {songs[song]['lyric_name']}")
 
     if (not song in rows):
         print(f'{song},,N,Y,,,Y,"Delete me"')
