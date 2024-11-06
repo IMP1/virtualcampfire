@@ -138,12 +138,12 @@ See_the_Little_Engines.mp3
 Shallow_Brown_(02).mp3
 Shawnee_Town.mp3
 Shenandoah_(Putney_Allstars).mp3
-Shoals_Of_Herring_(LondonGlee).mp3
+Shoals_of_Herring_(London_Glee_2024-02).mp3
 Sing_If_You're_Glad_To_Be_Gay_(Glee_Camp_2024-10).mp3
 Sinner_Man_(Putney_Allstars).mp3
 Sixteen_Tons.mp3
 Skye_Boat_Song.mp3
-Sloop_John_B_(Bridges_Dec23).mp3
+Sloop_John_B_(Bridges_2023-12).mp3
 Snow_Sniffing_Lament.mp3
 Song_For_Seth.mp3
 South_Australia_(Campchiefs_2024-01).mp3
@@ -166,7 +166,7 @@ There_Is_A_Tavern_In_The_Town.mp3
 This_Land_Is_Your_Land_(TNTCI_1990).mp3
 This_Train_Is_Bound_For_Glory.mp3
 Thousands_or_More_(01).mp3
-Tickle_Me_Pink_(Oxford_Glee_2024-02-11).mp3
+Tickle_Me_Pink_(Oxford_Glee_2024-02).mp3
 Trees(FITM_2024-06).mp3
 Under_the_Lilacs_(Glee_Camp_2024-10).mp3
 Unicorn.mp3

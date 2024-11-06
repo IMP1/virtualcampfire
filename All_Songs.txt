@@ -401,7 +401,7 @@ Shenandoah.mp3
 Shenandoah_(Putney_Allstars).mp3
 Shoals_Of_Herring.mp3
 Shoals_Of_Herring_(Campchiefs_2024-01).mp3
-Shoals_Of_Herring_(LondonGlee).mp3
+Shoals_of_Herring_(London_Glee_2024-02).mp3
 Shoot_The_Owl.mp3
 Shortnin_Bread.mp3
 Shtomni_Omi_Lalo_Mali.mp3
@@ -420,7 +420,7 @@ Sixteen_Tons_(Ed_Leads).mp3
 Siyahamba.mp3
 Siyahamba_(In_The_Crypt).mp3
 Skye_Boat_Song.mp3
-Sloop_John_B_(Bridges_Dec23).mp3
+Sloop_John_B_(Bridges_2023-12).mp3
 Snow_Sniffing_Lament.mp3
 So_What.mp3
 Song_For_Seth.mp3
@@ -480,16 +480,16 @@ Three_Crows.mp3
 Three_Is_The_Magic_Number.mp3
 Throw_My_Brain_In_A_Hurricane.mp3
 Thula_Mama.mp3
-Tickle_Me_Pink_(Oxford_Glee_2024-02-11).mp3
+Tickle_Me_Pink_(Oxford_Glee_2024-02).mp3
 Today_I_Feel_Older.mp3
 Tony_Chestnut.mp3
 Toori_Ay.mp3
 Trees(FITM_2024-06).mp3
 Triple_Whammy_(Putney_Allstars).mp3
 Troubles_Of_The_World.mp3
-Tu_We_And_Hill_And_Gully_Rider_(Postcamps_07).mp3
+Tu_We_And_Hill_And_Gully_Rider_(Postcamps_2007-09).mp3
 Turkey_Rhubarb.mp3
-Um_A_Lay_(Glee_07).mp3
+Um_A_Lay_(Glee_Camp_2007-06).mp3
 Um_A_Lay_(Wangs).mp3
 Umkhonto_We_Sizwe_(In_The_Crypt).mp3
 Uncle_Joe.mp3
@@ -527,7 +527,7 @@ White_Cockade_(Barnyard).mp3
 White_Cockade_(Wagon_Band).mp3
 Whoa_Naday_Naday_Nadeechay.mp3
 Wild_Mountain_Thyme.mp3
-Wild_Mountain_Thyme_(Caitlin_2024).mp3
+Wild_Mountain_Thyme_(Caitlin_2024-06).mp3
 Wild_Rover.mp3
 Wildwood_Flower_(Barnyard).mp3
 Winky_Wunk.mp3
