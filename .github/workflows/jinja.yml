@@ -21,7 +21,7 @@ jobs:
       run: cd mp3; ls *.mp3 > ../All_Songs.txt
 
     - name: List all yet to be sung
-      run: cd mp3; ls *.mp3 | grep "Not_Recorded_Yet" > ../Not_Recorded_Yet.txt; cd ..
+      run: cd mp3; ls *.mp3 | grep "Not_Recorded_Yet" > ../Not_Recorded_Yet.txt
 
     - name: setup python
       uses: actions/setup-python@v2
@@ -35,7 +35,7 @@ jobs:
     - name: execute python script for All_Songs
       run: |
         python jinja_site.py All_Songs.txt
-    - name: execute python script for Not Yet Recorded
+    - name: execute python script for Not Recorded Yet
       run: |
         python jinja_site.py Not_Recorded_Yet.txt
     - name: execute python script for selection
