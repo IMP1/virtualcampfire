@@ -73,7 +73,7 @@ I_Am_Weary.mp3
 I_Like_To_Rise.mp3
 I_don't_want_your_millions_(Caitlin_2024-06).mp3
 Irene_(Postcamps_2024-09).mp3
-It_Takes_A_Worried_Man_(03).mp3
+Worried_Man_(03).mp3
 Jamaican_Farewell_(01).mp3
 Jean_Harlow.mp3
 Jock_Stewart.mp3
@@ -100,7 +100,7 @@ My_Husbands_Got_No_Courage_In_Him_(Oxford_Glee_2024-02).mp3
 My_Johnny_Was_A_Shoemaker.mp3
 Nine_Hundred_Miles.mp3
 No_Man's_Land_(TNTCI_1990).mp3
-Oh_Lord_Won't_You_Buy_Me_A_Mercedes_Benz_(02).mp3
+Mercedes_Benz_(02).mp3
 Old_Abram_Brown.mp3
 Old_Dun_Cow.mp3
 Old_Joe_Clark.mp3
@@ -162,5 +162,5 @@ Wild_Mountain_Thyme_(Caitlin_2024-06).mp3
 Wild_Rover.mp3
 Woad_(Fergus_Ray_Murray).mp3
 Work_Song_(01).mp3
-Worried_Man.mp3
+Worried_Man_(Stores_2024-03).mp3
 Yellow_Roses.mp3
