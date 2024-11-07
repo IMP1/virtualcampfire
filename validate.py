@@ -70,11 +70,12 @@ for row in rows:
 
 # Check the files
 for song in songs:
-    if (not songs[song]['lyric_exists']):
-        print(f"Song {song} missing lyric file: {songs[song]['lyric_name']}")
-
+    problem = False
     if (not song in rows):
         print(f'{song},,N,Y,,,Y,"Delete me"')
+        problem = True
 
+    if (not problem and not songs[song]['lyric_exists']):
+        print(f"Song {song} missing lyric file: {songs[song]['lyric_name']}")
 
 #print(songs)
