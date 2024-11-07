@@ -356,7 +356,7 @@ Rosemary_Lane.mp3
 Rosemary_Lane_(Wagon_Band).mp3
 Rove_Riley_Rove_(Barnyard).mp3
 Rove_Riley_Rove_(Plus_Extras).mp3
-Rythm_And_Syncopation.mp3
+Rhythm_And_Syncopation.mp3
 Sailboat_Malarkey_(Snippet).mp3
 Sally_Free_And_Easy.mp3
 Sally_Free_And_Easy_(TNTCI_1990).mp3
@@ -416,7 +416,7 @@ Stealin'_(Skat).mp3
 Step_Lightly.mp3
 Streets_Of_London.mp3
 Sweet_Chariot.mp3
-Sweet_Roseanne.mp3
+Sweet_Rosey-Anne.mp3
 Swing_Down_Chariot.mp3
 Take_This_Hammer_(Horton_Rd_Vol_1).mp3
 Tall_Trees_That_Reach_The_Sky.mp3
