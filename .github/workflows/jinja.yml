@@ -21,7 +21,7 @@ jobs:
       run: cd mp3; ls *.mp3 > ../All_Songs.txt
 
     - name: List all yet to be sung
-      run: cd mp3; ls *.mp3 | grep "Not_Recorded_Yet" > ../Not_Recorded_Yet.txt
+      run: cd mp3; ls *.mp3 | grep "(Not_Recorded_Yet)" > ../Not_Recorded_Yet.txt
 
     - name: setup python
       uses: actions/setup-python@v2
