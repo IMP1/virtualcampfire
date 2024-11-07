@@ -438,8 +438,8 @@ The_Water_Is_Wide.mp3
 The_Wind_They_Say_It_Is_A_Song.mp3
 Diggers_Song_[The_World_Turned_Upside_Down]_(Horton_Rd_Vol_1).mp3
 Diggers_Song_(02).mp3
-Diggers_Song_(1648_version).mp3
-Diggers_Song_(1648_version).mp3
+Diggers_Song_[1648_version].mp3
+Diggers_Song_[1648_version].mp3
 Digger's_Song_[The_World_Turned_Upside_Down]_(05).mp3
 There_Ain't_No_Flies_On_Us.mp3
 There_Is_A_Tavern_In_The_Town.mp3
