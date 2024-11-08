@@ -75,7 +75,7 @@ for song in songs:
         print(f'{song},,N,Y,,,Y,"Delete me"')
         problem = True
 
-    if (not problem and not songs[song]['lyric_exists']):
-        print(f"Song {song} missing lyric file: {songs[song]['lyric_name']}")
+    #if (not problem and not songs[song]['lyric_exists']):
+    #    print(f"Song {song} missing lyric file: {songs[song]['lyric_name']}")
 
 #print(songs)
