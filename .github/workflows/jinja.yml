@@ -35,12 +35,15 @@ jobs:
     - name: execute python script for All_Songs
       run: |
         python jinja_site.py All_Songs.txt
+    - name: Create the selections from the csv
+      run: |
+        python  make_songbooks_from_songs.py
     - name: execute python script for Not Recorded Yet
       run: |
         python jinja_site.py Not_Recorded_Yet.txt
-    - name: execute python script for selection
+    - name: execute python script for a Selection
       run: |
-        python jinja_site.py selection.txt
+        python jinja_site.py Selection.txt
     - name: execute python script for The_Next_To_Come_In_1990
       run: |
         python jinja_site.py The_Next_To_Come_In_1990.txt
