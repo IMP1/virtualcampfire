@@ -12,14 +12,6 @@ h1 {
     left: 0;
     z-index: 10;
 }
-#logo {
-    background:url(fscfireball.jpg) no-repeat 20px 10px;
-    width:200px;
-    height:260px;
-    display:block;
-    font-size:16px;
-    text-align:center;
-}
 a:active, a:link, a:visited {
     color: #E5FFB2;
     border: 0px;
@@ -30,7 +22,10 @@ a:hover {
 }
 #songlist {
 	margin:auto;
-	width:86%;
+	width:90%;
+    border:2px inset green;
+    margin:auto;
+    padding:2px;
 }
 #songlist td {
     padding: 4px;
@@ -47,16 +42,10 @@ a:hover {
     margin:auto;
 
 }
+
 .song a:link {
     text-decoration:none;
 }
-#songlist {
-    border:2px inset green;
-    margin:auto;
-    padding:2px;
-    width:80%;
-}
-
 
 .song_text a:hover {
     background-color: #00CC00;

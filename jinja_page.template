@@ -5,26 +5,28 @@
   <link href="songbook.css" rel="stylesheet" type="text/css" />
  </head>
 <body>
-
 <div id="left" style='float:left; width:20%; textalign:left;'>
- <div id="logo"></div>
- <br/> &nbsp;
+ <div id="logo">
+   <a href="http://glee.org.uk/" >
+   <img src="fscfireball.png" alt="Forest School Camps Fireball Logo" />
+   </a>
+ </div>
+</div>
+
+<div id=right style="float:right; border:0px solid red;"><a href="https://github.com/glee-uk/virtualcampfire">
+ <img
+   align=right decoding="async" width="149" height="149"
+   src="https://github.blog/wp-content/uploads/2008/12/forkme_right_green_007200.png"
+   alt="Fork me on GitHub" loading="lazy" ></a>
  <audio
-  id="player"
-  type="audio/mpeg"
-  style="width: 90%;align:center;"
-  controls
-  loop
+   id="player"
+   type="audio/mpeg"
+   style="width: 90%;align:center;"
+   controls
+   loop
  >
 Sorry: your browser appears to be unable to stream .mp3 audio.
  </audio>
- <h3 style="text-align: center;">{{page_name}}</h3>
-</div>
-
-<div id=github style="float:right;"><a href="https://github.com/glee-uk/virtualcampfire">
- <img decoding="async" width="149" height="149"
-   src="https://github.blog/wp-content/uploads/2008/12/forkme_right_green_007200.png?resize=149%2C149"
-  alt="Fork me on GitHub" loading="lazy" ></a>
 </div>
 
 <div style="text-align:center;width:80%; margin: auto; border:0px solid red;">
@@ -33,10 +35,14 @@ Sorry: your browser appears to be unable to stream .mp3 audio.
 A place for <a href="http://fsc.org.uk/">Forest School Campers</a> 
 to learn and teach traditional songs online. 
 </p>
+<h3 style="text-align: center;">{{page_name}}</h3>
 <p>
 <a href="All_Songs.html">All versions of all songs</a>
 </p>
-<div style="text-align:center; width:85%; margin: auto;">
+</div>
+
+
+<div style="text-align:center; width:100%; margin: auto; border:0px solid red;">
 <table id="songlist">
 
 {% for song in songs %}
@@ -100,7 +106,7 @@ to learn and teach traditional songs online.
 	</a>
   {% endif %}
   </td>
-  <td valign="center">
+  <td >
     <a href="{{song.path}}" title="Download {{song.size}}Mb mp3">
       <svg
           fill="#ffffff"
@@ -125,8 +131,9 @@ to learn and teach traditional songs online.
 
 {% endfor %}
 </table>
-
-<div style="text-align:left;">
+</div>
+<div style="text-align:center; width:100%; margin: auto; border:1px solid cyan;">
+<div style="text-align:left;   width:80%;  margin: auto; border:1px solid pink;">
 <p>
 This page was originally put together by Leo Murray and Jack Freedman.
 </p>
@@ -146,7 +153,6 @@ Email <a href="mailto:tim.pizey+vc@gmail.com">Tim</a> to contribute songs or fee
 <p>
 Last updated {{dateStamp}}.
 </p>
-</div>
 </div>
 </div>
 </body>

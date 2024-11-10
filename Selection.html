@@ -5,26 +5,28 @@
   <link href="songbook.css" rel="stylesheet" type="text/css" />
  </head>
 <body>
-
 <div id="left" style='float:left; width:20%; textalign:left;'>
- <div id="logo"></div>
- <br/> &nbsp;
+ <div id="logo">
+   <a href="http://glee.org.uk/" >
+   <img src="fscfireball.png" alt="Forest School Camps Fireball Logo" />
+   </a>
+ </div>
+</div>
+
+<div id=right style="float:right; border:0px solid red;"><a href="https://github.com/glee-uk/virtualcampfire">
+ <img
+   align=right decoding="async" width="149" height="149"
+   src="https://github.blog/wp-content/uploads/2008/12/forkme_right_green_007200.png"
+   alt="Fork me on GitHub" loading="lazy" ></a>
  <audio
-  id="player"
-  type="audio/mpeg"
-  style="width: 90%;align:center;"
-  controls
-  loop
+   id="player"
+   type="audio/mpeg"
+   style="width: 90%;align:center;"
+   controls
+   loop
  >
 Sorry: your browser appears to be unable to stream .mp3 audio.
  </audio>
- <h3 style="text-align: center;">selection</h3>
-</div>
-
-<div id=github style="float:right;"><a href="https://github.com/glee-uk/virtualcampfire">
- <img decoding="async" width="149" height="149"
-   src="https://github.blog/wp-content/uploads/2008/12/forkme_right_green_007200.png?resize=149%2C149"
-  alt="Fork me on GitHub" loading="lazy" ></a>
 </div>
 
 <div style="text-align:center;width:80%; margin: auto; border:0px solid red;">
@@ -33,10 +35,14 @@ Sorry: your browser appears to be unable to stream .mp3 audio.
 A place for <a href="http://fsc.org.uk/">Forest School Campers</a> 
 to learn and teach traditional songs online. 
 </p>
+<h3 style="text-align: center;">Selection</h3>
 <p>
 <a href="All_Songs.html">All versions of all songs</a>
 </p>
-<div style="text-align:center; width:85%; margin: auto;">
+</div>
+
+
+<div style="text-align:center; width:100%; margin: auto; border:0px solid red;">
 <table id="songlist">
 
 
@@ -98,7 +104,7 @@ to learn and teach traditional songs online.
 	</a>
   
   </td>
-  <td valign="center">
+  <td >
     <a href="mp3/A_Bi_O.mp3" title="Download 2.47Mb mp3">
       <svg
           fill="#ffffff"
@@ -182,7 +188,7 @@ to learn and teach traditional songs online.
 	</a>
   
   </td>
-  <td valign="center">
+  <td >
     <a href="mp3/Adieu_Sweet_Nancy_(London_Glee_2024-09).mp3" title="Download 2.99Mb mp3">
       <svg
           fill="#ffffff"
@@ -264,7 +270,7 @@ to learn and teach traditional songs online.
 	</a>
   
   </td>
-  <td valign="center">
+  <td >
     <a href="mp3/Ah_Poor_Bird.mp3" title="Download 1.39Mb mp3">
       <svg
           fill="#ffffff"
@@ -291,7 +297,7 @@ to learn and teach traditional songs online.
 <tr class="song">
   <td valign="center">
     <a onclick="choose('mp3/Ain\'t_Gonna_Study_War_(Parts).mp3')"
-       title="Ain't Gonna Study War . [0:00:24]."
+       title="Ain't Gonna Study War . [0:00:21]."
     >
      <svg xmlns="http://www.w3.org/2000/svg"
           shape-rendering="geometricPrecision"
@@ -314,7 +320,7 @@ to learn and teach traditional songs online.
   </td>
   <td class=song_text>
     <a onclick="choose('mp3/Ain\'t_Gonna_Study_War_(Parts).mp3')"
-       title="Ain't Gonna Study War . [0:00:24]."
+       title="Ain't Gonna Study War . [0:00:21]."
     >
      Ain't Gonna Study War 
      </a>
@@ -348,7 +354,7 @@ to learn and teach traditional songs online.
 	</a>
   
   </td>
-  <td valign="center">
+  <td >
     <a href="mp3/Ain't_Gonna_Study_War_(Parts).mp3" title="Download 0.77Mb mp3">
       <svg
           fill="#ffffff"
@@ -430,7 +436,7 @@ to learn and teach traditional songs online.
 	</a>
   
   </td>
-  <td valign="center">
+  <td >
     <a href="mp3/Alcohol.mp3" title="Download 1.08Mb mp3">
       <svg
           fill="#ffffff"
@@ -512,7 +518,7 @@ to learn and teach traditional songs online.
 	</a>
   
   </td>
-  <td valign="center">
+  <td >
     <a href="mp3/All_For_Me_Grog.mp3" title="Download 1.69Mb mp3">
       <svg
           fill="#ffffff"
@@ -594,7 +600,7 @@ to learn and teach traditional songs online.
 	</a>
   
   </td>
-  <td valign="center">
+  <td >
     <a href="mp3/All_On_The_Shore.mp3" title="Download 2.54Mb mp3">
       <svg
           fill="#ffffff"
@@ -676,7 +682,7 @@ to learn and teach traditional songs online.
 	</a>
   
   </td>
-  <td valign="center">
+  <td >
     <a href="mp3/Animal_Fair.mp3" title="Download 0.35Mb mp3">
       <svg
           fill="#ffffff"
@@ -758,7 +764,7 @@ to learn and teach traditional songs online.
 	</a>
   
   </td>
-  <td valign="center">
+  <td >
     <a href="mp3/As_She_Moved_Through_The_Fair.mp3" title="Download 2.01Mb mp3">
       <svg
           fill="#ffffff"
@@ -783,8 +789,9 @@ to learn and teach traditional songs online.
 
 
 </table>
-
-<div style="text-align:left;">
+</div>
+<div style="text-align:center; width:100%; margin: auto; border:1px solid cyan;">
+<div style="text-align:left;   width:80%;  margin: auto; border:1px solid pink;">
 <p>
 This page was originally put together by Leo Murray and Jack Freedman.
 </p>
@@ -802,9 +809,8 @@ in all the <a href="../songbooks/">FSC songbooks</a>.
 Email <a href="mailto:tim.pizey+vc@gmail.com">Tim</a> to contribute songs or feedback.
 </p>
 <p>
-Last updated 2024-11-08 16:43:45.480275.
+Last updated 2024-11-10 21:53:02.906629.
 </p>
-</div>
 </div>
 </div>
 </body>
