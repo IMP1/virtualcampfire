@@ -30,7 +30,10 @@ Sorry: your browser appears to be unable to stream .mp3 audio.
 </div>
 
 <div style="text-align:center;width:80%; margin: auto; border:0px solid red;">
-<h1>Virtual Campfire</h1>
+<h1><a href="http://glee.org.uk/virtualcampfire/"
+       style="text-decoration:none"
+     >Virtual Campfire</a>
+</h1>
 <p>
 A place for <a href="http://fsc.org.uk/">Forest School Campers</a> 
 to learn and teach traditional songs online. 
