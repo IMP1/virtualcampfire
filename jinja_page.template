@@ -132,8 +132,8 @@ to learn and teach traditional songs online.
 {% endfor %}
 </table>
 </div>
-<div style="text-align:center; width:100%; margin: auto; border:1px solid cyan;">
-<div style="text-align:left;   width:80%;  margin: auto; border:1px solid pink;">
+<div style="text-align:center; width:100%; margin: auto; border:0px solid cyan;">
+<div style="text-align:left;   width:80%;  margin: auto; border:0px solid pink;">
 <p>
 This page was originally put together by Leo Murray and Jack Freedman.
 </p>
