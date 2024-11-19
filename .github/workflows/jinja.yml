@@ -44,6 +44,9 @@ jobs:
     - name: execute python script for a Selection
       run: |
         python jinja_site.py Selection.txt
+    - name: execute python script for the foundational collection
+      run: |
+        python jinja_site.py Rushall_Glee_1997-10.txt
     - name: execute python script for The_Next_To_Come_In_1990
       run: |
         python jinja_site.py The_Next_To_Come_In_1990.txt
