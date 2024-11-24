@@ -5,47 +5,52 @@
   <link href="songbook.css" rel="stylesheet" type="text/css" />
  </head>
 <body>
-<div id="left" style='float:left; width:20%; textalign:left;'>
- <div id="logo">
+<div id="banner" style="border:0px solid cyan; background-color:#004400;">
+<table width="100%">
+<tr><td>
+ <div id="left" style='float:left; width:20%; textalign:left;'>
+  <div id="logo">
    <a href="http://glee.org.uk/" >
-   <img src="fscfireball.png" alt="Forest School Camps Fireball Logo" />
+   <img src="fscfireball.png" alt="Forest School Camps Fireball Logo" margin=4/>
    </a>
+  </div>
  </div>
-</div>
-
-<div id=right style="float:right; border:0px solid red;"><a href="https://github.com/glee-uk/virtualcampfire">
- <img
+ </td><td>
+ <div id="header" style="text-align:center;width:80%; margin: auto; border:0px solid red;">
+  <h2 style="border:0px solid red;"><a href="http://glee.org.uk/virtualcampfire/"
+       style="text-decoration:none"
+     >Virtual Campfire</a>
+  </h2>
+  <p valign="top" style="border:0px solid red;">
+  A place for <a href="http://fsc.org.uk/">Forest School Campers</a>
+  to learn and teach traditional songs online.
+  </p>
+  <h3 style="text-align: center;">{{page_name}}</h3>
+  <p>
+   <a href="All_Songs.html">All versions of all songs</a>
+  </p>
+ </div>
+</td><td>
+ <div id=right style="float:right; border:0px solid red;"><a href="https://github.com/glee-uk/virtualcampfire">
+  <img
    align=right decoding="async" width="149" height="149"
    src="https://github.blog/wp-content/uploads/2008/12/forkme_right_green_007200.png"
    alt="Fork me on GitHub" loading="lazy" ></a>
- <audio
+  <audio
    id="player"
    type="audio/mpeg"
    style="width: 90%;align:center;"
    controls
    loop
- >
+  >
 Sorry: your browser appears to be unable to stream .mp3 audio.
- </audio>
+  </audio>
+ </div>
+</td></tr>
+</table>
 </div>
 
-<div style="text-align:center;width:80%; margin: auto; border:0px solid red;">
-<h1><a href="http://glee.org.uk/virtualcampfire/"
-       style="text-decoration:none"
-     >Virtual Campfire</a>
-</h1>
-<p>
-A place for <a href="http://fsc.org.uk/">Forest School Campers</a> 
-to learn and teach traditional songs online. 
-</p>
-<h3 style="text-align: center;">{{page_name}}</h3>
-<p>
-<a href="All_Songs.html">All versions of all songs</a>
-</p>
-</div>
-
-
-<div style="text-align:center; width:100%; margin: auto; border:0px solid red;">
+<div style="margin-top:210px;text-align:center; width:100%;  border:0px solid orange;">
 <table id="songlist">
 
 {% for song in songs %}
