@@ -38,7 +38,7 @@ with (open(file_in, 'r') as input):
         title = title_version.split("(")[0]
         title = title.strip()
         if len(title_version.split("(")) == 2:
-            version = title_version.split("(")[1].replace(")", "")
+            version = title_version.split("(")[1].split(")")[0]
             version = version.replace("_", " ")
             song["version"] = version
         else:
