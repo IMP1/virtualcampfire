@@ -72,7 +72,7 @@ for row in rows:
 for song in songs:
     problem = False
     if (not song in rows):
-        print(f'{song},,N,Y,,,Y,"Delete me"')
+        print(f'{song},,N,N,,,Y,"IFASCO 2024"')
         problem = True
 
     #if (not problem and not songs[song]['lyric_exists']):
