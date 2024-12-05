@@ -1,6 +1,6 @@
 <html>
  <head>
-  <title>Virtual Campfire</title>
+  <title>Virtual Campfire - {{page_name}}</title>
   <script type="text/javascript" src="player.js"></script>
   <link href="songbook.css" rel="stylesheet" type="text/css" />
  </head>
