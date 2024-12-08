@@ -47,7 +47,7 @@ Blow_The_Candle_Out.mp3
 Blow_The_Man_Down.mp3
 Blowin_In_The_Wind.mp3
 Blue_Lake_And_Rocky_Shore.mp3
-Blustery_Fireside_(Pipes).mp3
+Blustery_Fireside_(Tin_Whistle).mp3
 Boggy_Boggy.mp3
 Bold_Riley_(Oxford_Glee_2024-02).mp3
 Bon_Soir_(Unknown){WM}.mp3
@@ -386,7 +386,7 @@ Shtomni_Omi_Lalo_Mali_(In_The_Crypt){WM}.mp3
 Sikelele_Africa_(Unknown){WM}.mp3
 Silver_Dagger_(01).mp3
 Silver_Dagger_(Jaunty_Ukelele).mp3
-I've_Got_A_Coming_On.mp3
+I've_Got_A_Sin_Coming_On.mp3
 Sing_Together.mp3
 Sinner_Man_(Putney_Allstars).mp3
 Sixteen_Tons.mp3
