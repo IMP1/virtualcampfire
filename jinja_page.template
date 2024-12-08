@@ -22,10 +22,12 @@
        style="text-decoration:none"
      >Virtual Campfire</a>
   </h2>
+  <!--
   <p valign="top" style="border:0px solid red;">
   A place for <a href="http://fsc.org.uk/">Forest School Campers</a>
   to learn and teach traditional songs online.
   </p>
+  -->
   <h3 style="text-align: center;">{{page_name}}</h3>
   <p>
    <a href="All_Songs.html">All versions of all songs</a>
