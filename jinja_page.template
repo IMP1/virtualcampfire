@@ -3,6 +3,7 @@
   <title>Virtual Campfire - {{page_name}}</title>
   <script type="text/javascript" src="player.js"></script>
   <link href="songbook.css" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
  </head>
 <body>
 <div id="banner" style="border:0px solid cyan; background-color:#004400;">
