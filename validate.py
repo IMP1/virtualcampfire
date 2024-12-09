@@ -62,6 +62,7 @@ for file_name in os.listdir(directory):
         song["path"] = path
         songs[song['file_name']] = song
 
+
 # Check the sheet
 
 for row in rows:
@@ -69,7 +70,14 @@ for row in rows:
         print(f"Song {row} is in the Google sheet, but does not have a corresponding mp3 file")
 
 # Check the files
+song_count = 0
+lyric_count = 0
 for song in songs:
+    print(song)
+    song_count+=1
+    s_dict=songs[song]
+    if (s_dict['lyric_exists']):
+       lyric_count+=1
     problem = False
     if (not song in rows):
         print(f'{song},,N,N,,,Y,"IFASCO 2024"')
@@ -78,4 +86,6 @@ for song in songs:
     #if (not problem and not songs[song]['lyric_exists']):
     #    print(f"Song {song} missing lyric file: {songs[song]['lyric_name']}")
 
+print (f"Song count: {song_count}")
+print (f"Lyric count: {lyric_count}")
 #print(songs)
