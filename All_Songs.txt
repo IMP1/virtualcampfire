@@ -46,7 +46,7 @@ Blackleg_Miner_(Oxford_Glee_2024-02).mp3
 Blackleg_Miner_(Slow).mp3
 Blackleg_Miner_(Wagon_Band).mp3
 Blessed_Motion_(Not_Recorded_Yet).mp3
-Blow_The_Candle_Out.mp3
+Blow_The_Candle_Out_(Same_Lee_Joe_Buirski_2007-06).mp3
 Blow_The_Man_Down.mp3
 Blowin_In_The_Wind.mp3
 Blue_Lake_And_Rocky_Shore.mp3
@@ -65,7 +65,7 @@ Bring_Me_Little_Water_Sylvie_(Parts).mp3
 Bring_Us_in_Hot_Tea_(Not_Recorded_Yet).mp3
 Broadside_to_Broadside_(Not_Recorded_Yet).mp3
 Broken_Rib.mp3
-Buirski_Banjo_Break.mp3
+Banjo_Break_(Joe_Buirski_2007-06).mp3
 By_The_Waters_Of_Babylon.mp3
 By_The_Waters_Of_Babylon_(02).mp3
 C_O_F_F_E_E.mp3
@@ -108,7 +108,7 @@ Deep_Blue_Sea_(London_Glee_2024-02).mp3
 Deep_Blue_Sea_(Postcamps_2007-09).mp3
 Deep_Down_In_My_Soul_(In_The_Crypt).mp3
 Deportees_(Horton_Rd_Vol_2).mp3
-Derby_Ram's_Tail.mp3
+Derby_Ram.mp3
 Diamonds_in_the_Rough_(Not_Recorded_Yet).mp3
 Dido_Bendigo_(Not_Recorded_Yet).mp3
 Dido_Fido.mp3
