@@ -73,7 +73,7 @@ for row in rows:
 song_count = 0
 lyric_count = 0
 for song in songs:
-    print(song)
+#    print(song)
     song_count+=1
     s_dict=songs[song]
     if (s_dict['lyric_exists']):
