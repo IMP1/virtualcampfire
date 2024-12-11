@@ -192,6 +192,7 @@ Hard_Times_(Banjo).mp3
 Hard_Times_(Rushall_Glee_1997-10).mp3
 Hares_On_The_Mountain_(Major_Key,_Hannah_Kessler_2024-12).mp3
 Hares_On_The_Mountain_(Minor_Key,_Hannah_Kessler_2024-12).mp3
+Hares_On_The_Mountain_(Stores_2024-12).mp3
 Harriet_Tubman_(02).mp3
 Harriet_Tubman_(Horton_Rd_Vol_1).mp3
 Haul_Away_For_Johnny_O.mp3
@@ -303,6 +304,7 @@ Moccasin_Mile.mp3
 Moccasin_Mile_(Hayereyah_2024-12).mp3
 Mole_In_A_Hole.mp3
 Moon_Of_Love.mp3
+Moondance_(Stores_2024-12).mp3
 Moonganga.mp3
 Moonganga_(In_The_Crypt).mp3
 Morning_Train.mp3
