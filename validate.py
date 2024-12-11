@@ -90,8 +90,8 @@ for song in songs:
     #if (not problem and not songs[song]['lyric_exists']):
     #    print(f"Song {song} missing lyric file: {songs[song]['lyric_name']}")
 
-print (f"Song count: {song_count}")
-print (f"Done lyric count: {len(done_lyric_counts)}")
-print (f"Todo lyric count: {len(todo_lyric_counts)}")
+print (f"Song count       : {song_count}")
+print (f"Done lyric count : {len(done_lyric_counts)}")
+print (f"Todo lyric count : {len(todo_lyric_counts)}")
 print (f"Total lyric count: {len(done_lyric_counts) + len(todo_lyric_counts)}")
 #print(songs)
