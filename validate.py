@@ -71,13 +71,17 @@ for row in rows:
 
 # Check the files
 song_count = 0
-lyric_count = 0
+done_lyric_counts = {}
+todo_lyric_counts = {}
 for song in songs:
 #    print(song)
     song_count+=1
     s_dict=songs[song]
     if (s_dict['lyric_exists']):
-       lyric_count+=1
+       done_lyric_counts[s_dict['lyric_name']]=1
+    else:
+       todo_lyric_counts[s_dict['lyric_name']]=1
+
     problem = False
     if (not song in rows):
         print(f'{song},,N,N,,,Y,"IFASCO 2024"')
@@ -87,5 +91,7 @@ for song in songs:
     #    print(f"Song {song} missing lyric file: {songs[song]['lyric_name']}")
 
 print (f"Song count: {song_count}")
-print (f"Lyric count: {lyric_count}")
+print (f"Done lyric count: {len(done_lyric_counts)}")
+print (f"Todo lyric count: {len(todo_lyric_counts)}")
+print (f"Total lyric count: {len(done_lyric_counts) + len(todo_lyric_counts)}")
 #print(songs)
