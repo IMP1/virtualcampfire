@@ -430,7 +430,6 @@ Shtomni_Omi_Lalo_Mali_(Unknown){WM}.mp3
 Sikelele_Africa_(Unknown){WM}.mp3
 Silver_Dagger_(01).mp3
 Silver_Dagger_(Jaunty_Ukelele).mp3
-We_Will_Sing_Together.mp3
 Sinner_Man_(Putney_Allstars).mp3
 Sixteen_Tons.mp3
 Sixteen_Tons_(Bellair_Remix).mp3
@@ -534,6 +533,7 @@ We've_Got_All_The_Love_(Parts).mp3
 We_All_Come_From_The_Goddess_(Rain_Soaked_Hippies).mp3
 We_All_Fly_Like_Eagles_(Oxford Glee 2024-05).mp3
 We_Are_At_One_With_The_Infinite_Sun_(Rain_Soaked_Hippies).mp3
+We_Will_Sing_Together.mp3
 Wedding_Song_(Rushall_Glee_1997-10).mp3
 Whaling_Song_(Ickaviel).mp3
 What_Will_We_Do_(Pam_and_Bea).mp3
